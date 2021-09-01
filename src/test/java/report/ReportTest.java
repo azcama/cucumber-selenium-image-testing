@@ -27,7 +27,7 @@ public class ReportTest {
         jsonFiles.add("target/cucumber.json");
 
         String buildNumber = "1.0.0";
-        String projectName = "PDF Selenium Automatic Tests";
+        String projectName = "Image Selenium Automatic Tests";
         Configuration configuration = new Configuration(reportOutputDirectory, projectName);
         configuration.setBuildNumber(buildNumber);
 
